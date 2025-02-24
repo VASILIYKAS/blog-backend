@@ -63,10 +63,10 @@
                 <div class="user justify-content-between d-flex">
                   <div class="desc">
                     {% for comment in post.comments %}
-                    <h5><a href="#">{{ comment.author }}</a></h5>
-                    <p class="date">{{ comment.published_at }}</p>
-                    <p class="comment">{{ comment.text }}</p>
-                    <br><br>
+                      <h5><a href="#">{{ comment.author }}</a></h5>
+                      <p class="date">{{ comment.published_at }}</p>
+                      <p class="comment">{{ comment.text }}</p>
+                      <br><br>
                     {% endfor %}
                   </div>
                 </div>
